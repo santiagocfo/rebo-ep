@@ -1,0 +1,131 @@
+/*
+    para cor de fundo do site
+*/
+/* 
+    para cor do corpo do site
+*/
+body {
+    background-color:#141414;
+    color: #02ad02d3;
+    font-family: Arial, sans-serif;
+}
+/* 
+    para cor do cabeçalho do site
+*/
+h1 {
+    color: #141414;
+    
+    text-align: center;
+}
+/* 
+    para cor do link do site
+*/
+nav a {
+    background-color: #02ad02d3;
+    color: #141414;
+    border: 1px solid #141414;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+ 
+nav a:hover {
+    background-color: #141414;
+    color: #02ad02d3;
+    border: 1px solid #02ad02d3;
+}
+
+/* 
+    para o menu do site
+*/
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #02ad02d3;
+    border-radius: 5px;
+}
+/* 
+    para o cabeçalho do site
+*/
+header {
+    background-color: #02ad02d3;
+    color:#141414;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* 
+    para o rodape do site
+*/
+footer {
+    padding: 20px;
+    background-color: #02ad02d3;
+    color:#141414;
+    text-align: center;
+    border-top: 1px solid #141414;
+    
+}
+/* 
+    para o botão do site
+*/
+button {
+    background-color: #02ad02d3;
+    color: #141414;
+    border: 1px solid #141414;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* 
+    para o label do site
+*/
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #02ad02d3;
+}
+/* 
+    para o form do site
+*/
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #02ad02d3;
+    border-radius: 5px;
+}
+/* 
+    para o formulário do site
+*/
+input, textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #02ad02d3;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* 
+    para o  enquanto o mouse está sobre ele no site
+*/
+button:hover {
+    background-color: #141414;
+    color: #02ad02d3;
+    border: 1px solid #02ad02d3;
+}
+/* 
+    para a mensagem de sucesso do site
+*/
+#mensagemSucesso {
+    color: #02ad02d3;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#mensagemSucesso.mensagem-erro {
+    color: red;
+}
